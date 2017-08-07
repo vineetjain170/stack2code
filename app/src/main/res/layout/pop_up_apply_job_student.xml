@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Upload CV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/action_upload_cv"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@drawable/side_nav_bar" />
+
+    <TextView
+        android:text="Digi Locker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/action_upload_cv"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/action_digi_locker"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@drawable/button_shape" />
+</RelativeLayout>

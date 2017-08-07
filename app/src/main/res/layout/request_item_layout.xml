@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/button_shape"
+        android:layout_margin="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="0dp"
+
+            android:text="Requester Name"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/requester_name_nad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:text="Id number"
+        android:textSize="17dp"
+
+        />
+
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="#c0c0c0"/>
+
+
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+           <android.support.v7.widget.AppCompatTextView
+               android:id="@+id/name1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="24dp"
+
+               android:text="Certificate"
+               android:textSize="17dp"
+               android:textColor="@color/colorPrimary"
+               />
+
+           <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/name_certificate_nad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="0dp"
+                android:paddingLeft="10dp"
+                android:text="Name"
+                android:textSize="16dp"
+                 />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

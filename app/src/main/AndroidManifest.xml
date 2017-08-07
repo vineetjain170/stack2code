@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vscholars.stack2code.vscholars">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+        </activity>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginHome"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".LoginPage"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".RegisterPage"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".InstitutesFilter"></activity>
+        <activity android:name=".InstitutesListMain"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".AppliedJobsActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".StudentProfileView"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ViewRequestActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ProfileViewVerifier"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".PostAdVerifier"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".ViewJobApplicationVerifier"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ApplyForJobStudent"></activity>
+        <activity android:name=".PopUpActivityApplyJob"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".DigiLockerSignInActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".DatePickerActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".NADSignInActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ItemSelectorDigilockerActivity"></activity>
+        <activity android:name=".ProgressActivity"
+            android:theme="@style/Theme.Transparent"></activity>
+        <activity android:name=".AboutUs"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Settings"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+</manifest>

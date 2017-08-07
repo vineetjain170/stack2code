@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/view_request"
+            android:title="View Requests"
+            android:icon="@drawable/ic_menu_camera"/>
+        <item
+            android:id="@+id/applied_jobs"
+            android:title="Applied Jobs"
+            android:icon="@drawable/ic_menu_appliedjobs"/>
+        <item
+            android:id="@+id/view_institute"
+            android:title="View Institutes"
+            android:icon="@drawable/ic_menu_viewinstitutes"/>
+
+        <item android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_menu_profile"/>
+
+        <item android:id="@+id/settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_menu_settings"/>
+
+        <item android:id="@+id/log_out"
+            android:title="Log Out"
+            android:icon="@drawable/ic_logout"/>
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="About"
+
+                />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_menu_help"
+                android:title="Help" />
+        </menu>
+    </item>
+</menu>

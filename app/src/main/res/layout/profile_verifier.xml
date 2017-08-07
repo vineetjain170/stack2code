@@ -1,0 +1,315 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="#d0d0d0"
+    >
+
+    <RelativeLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <RelativeLayout
+            android:id="@+id/layoutTop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/infy">
+        </RelativeLayout>
+        ///// INFO
+
+
+        <RelativeLayout
+            android:id="@+id/layoutBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/layoutTop" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--name-->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_margin="2dp">
+
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/name11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="0dp"
+                        android:padding="12dp"
+                        android:text="Company Name"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorPrimary"
+                        />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:background="#c0c0c0"/>
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/name1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="24dp"
+                        android:textSize="15dp"
+                        android:padding="12dp"
+                        android:text="Infosys"
+                        />
+
+
+                </LinearLayout>
+
+
+
+                <!--established-->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_margin="2dp">
+
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/estab"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="0dp"
+                        android:padding="12dp"
+                        android:text="Established"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorPrimary"
+                        />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:background="#c0c0c0"/>
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/est_date"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="24dp"
+                        android:textSize="15dp"
+                        android:padding="12dp"
+                        android:text="1981"
+                        />
+
+
+                </LinearLayout>
+
+                <!--address-->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_margin="2dp">
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/contact1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="0dp"
+                        android:padding="12dp"
+                        android:text="Address"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorPrimary"
+                        />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:background="#c0c0c0"/>
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/contact"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="24dp"
+                        android:textSize="15dp"
+                        android:padding="12dp"
+                        android:text="7th Floor, Tower A,B Develepors Limited Special, Sector 24 \nGurugram, Haryana"
+                        />
+
+                </LinearLayout>
+
+
+
+                <!--ads-->
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_margin="2dp">
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/gender1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="0dp"
+                        android:padding="12dp"
+                        android:text="Ads published"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorPrimary"
+                        />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:background="#c0c0c0"/>
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/gender"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="24dp"
+                        android:textSize="15dp"
+                        android:padding="12dp"
+                        android:text="16"
+                        />
+                </LinearLayout>
+                <!--ads-->
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_margin="2dp">
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/desc1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="0dp"
+                        android:padding="12dp"
+                        android:text="Description"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorPrimary"
+                        />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:background="#c0c0c0"/>
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/description"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="24dp"
+                        android:textSize="15dp"
+                        android:padding="12dp"
+                        android:text="Infosys Limited is an Indian multinational corporation that provides business consulting, information technology and outsourcing services. It has the main headquarter in Bengaluru, India. "
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/user"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            android:layout_above="@id/layoutBottom"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-20dp"
+            android:adjustViewBounds="true"/>
+
+    </RelativeLayout>
+</ScrollView>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+
+</android.support.v4.widget.DrawerLayout>
+

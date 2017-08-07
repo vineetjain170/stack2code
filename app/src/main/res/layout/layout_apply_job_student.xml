@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+android:layout_margin="5dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_shape"
+        android:layout_margin="2dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:id="@+id/company_name_header"
+        android:textColor="@color/colorPrimary"
+        android:gravity="left"
+        android:text="Company Header"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/company_name_header"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:id="@+id/job_type_apply"
+        android:textSize="18sp"
+        android:textColor="#000"
+        />
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/job_type_apply">
+        <TextView
+            android:text="Start Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/job_type_apply"
+            android:textColor="@color/colorPrimary"
+
+            android:id="@+id/textView19"
+            android:textSize="18sp" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:layout_toRightOf="@id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000"
+
+
+            android:id="@+id/start_date_apply" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LL1">
+        <TextView
+            android:text="Duration"
+
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/start_date_apply"
+            android:layout_alignLeft="@+id/start_date_apply"
+            android:layout_alignStart="@+id/start_date_apply"
+            android:id="@+id/textView23"
+            android:textSize="18sp"
+             />
+
+        <TextView
+            android:text="TextView"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+
+            android:layout_below="@+id/textView23"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/duration_apply" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL3"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LL2">
+
+
+        <TextView
+            android:text="Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/textView25"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="TextView"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView25"
+            android:textColor="#000"
+
+            android:id="@+id/location_apply"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LL4"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LL3">
+        <TextView
+            android:text="Stipend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/textView28"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="TextView"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000"
+
+            android:id="@+id/stipend_apply" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL5"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LL4">
+
+        <TextView
+            android:text="Apply By"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView31"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:textColor="#000"
+
+            android:id="@+id/last_date_for_apply" />
+    </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:layout_below="@id/LL5">
+    <TextView
+        android:text="TextView"
+        android:textColor="#000"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/full_time_part_time"
+        />
+    <Button
+        android:id="@+id/apply_for_job_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apply"
+        android:layout_alignParentRight="true"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"/>
+
+
+</RelativeLayout>
+</LinearLayout>
+</RelativeLayout>

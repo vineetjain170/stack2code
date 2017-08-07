@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">JobMania</string>
+    <string name="login_text">
+       No account yet? <u>Create one</u>
+    </string>
+    <string name="logout_text">
+        Already have an account? <u>Log in</u>
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="filterOptionsMain">
+        <item>Year</item>
+        <item>Select State</item>
+        <item>Select Program</item>
+        <item>Select Level</item>
+        <item>Institution Type</item>
+        <item>Minority</item>
+        <item>Women</item>
+    </string-array>
+    <string-array name="yearOptions">
+        <item>2012-2013</item>
+        <item>2013-2014</item>
+        <item>2014-2015</item>
+        <item>2015-2016</item>
+        <item>2016-2017</item>
+    </string-array>
+    <string-array name="stateOptions">
+        <item>Andaman And Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra And Nagar Haveli</item>
+        <item>Daman And Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujrat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu And Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Orissa</item>
+        <item>Puducherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string-array name="programOptions">
+        <item>--All--</item>
+        <item>Applied Arts And Crafts</item>
+        <item>Architecture And Town Planning</item>
+        <item>Architecture</item>
+        <item>Town Planning</item>
+        <item>Engineering And Technology</item>
+        <item>Hotel Management And Catering</item>
+        <item>Management</item>
+        <item>MCA</item>
+        <item>Pharmacy</item>
+    </string-array>
+    <string-array name="levelOptions">
+        <item>--All--</item>
+        <item>UG</item>
+        <item>PG</item>
+        <item>Diploma</item>
+    </string-array>
+    <string-array name="institutionType">
+        <item>--All--</item>
+        <item>Unaided-Private</item>
+        <item>Govt Aided</item>
+        <item>University Managed</item>
+        <item>Government</item>
+        <item>Deemed University(Private)</item>
+        <item>University Managed-Govt</item>
+        <item>University Managed-Private</item>
+        <item>Central University</item>
+        <item>Private-Aided</item>
+        <item>Deemed University(Government)</item>
+    </string-array>
+    <string-array name="minorityOptions">
+        <item></item>
+        <item>Y</item>
+    </string-array>
+    <string-array name="womenOptions">
+        <item></item>
+        <item>Y</item>
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+</resources>

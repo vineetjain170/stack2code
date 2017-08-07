@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter Options"
+            android:layout_gravity="left"
+            android:id="@+id/toolbar_title"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <Button
+            android:text="Apply Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="@drawable/round_button"
+            android:id="@+id/action_php_submit"
+            android:layout_gravity="right"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ListView
+            android:id="@+id/parent_options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_weight="2"
+            android:fadingEdge="vertical"
+            android:scrollbars="none"
+            android:smoothScrollbar="true"
+            android:soundEffectsEnabled="true"
+            android:choiceMode="singleChoice"
+            android:background="#F2F2F2"/>
+
+        <ListView
+            android:id="@+id/child_options"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_weight="1"
+            android:dividerHeight="1px"
+            android:drawSelectorOnTop="false"
+            android:fadingEdge="vertical"
+            android:padding="0dip"
+            android:scrollbars="none"
+            android:smoothScrollbar="true"
+            android:choiceMode="singleChoice"
+            android:listSelector="@drawable/selector_list_item"/>
+    </LinearLayout>
+</LinearLayout>
